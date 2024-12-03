@@ -1,6 +1,6 @@
 {
   "name": "@bangbang93/passport-qq",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "qq authentication strategy for Passport.",
   "author": {
     "name": "bangbang93",
