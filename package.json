@@ -1,8 +1,12 @@
 {
   "name": "@bangbang93/passport-qq",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "qq authentication strategy for Passport.",
-  "author": { "name": "bangbang93", "email": "bangbang93@163.com", "url": "http://github.com/bangbang93" },
+  "author": {
+    "name": "bangbang93",
+    "email": "bangbang93@163.com",
+    "url": "http://github.com/bangbang93"
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/bangbang93/passport-qq.git"
@@ -22,10 +26,21 @@
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
   },
-  "engines": { "node": ">= 0.4.0" },
-  "licenses": [ {
-    "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT"
-  } ],
-  "keywords": ["passport", "qq", "auth", "authn", "authentication", "identity"]
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "keywords": [
+    "passport",
+    "qq",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ]
 }
