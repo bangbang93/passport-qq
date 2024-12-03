@@ -1,16 +1,17 @@
 {
-  "name": "passport-qq",
+  "name": "@bangbang93/passport-qq",
   "version": "0.1.0",
   "description": "qq authentication strategy for Passport.",
-  "author": { "name": "Andy Shang", "email": "andy.amuro@gmail.com", "url": "http://github.com/andyshang" },
+  "author": { "name": "bangbang93", "email": "bangbang93@163.com", "url": "http://github.com/bangbang93" },
   "repository": {
     "type": "git",
-    "url": "http://github.com/qdsang/passport-qq.git"
+    "url": "http://github.com/bangbang93/passport-qq.git"
   },
   "bugs": {
-    "url": "http://github.com/qdsang/passport-qq/issues"
+    "url": "http://github.com/bangbang93/passport-qq/issues"
   },
   "main": "./lib/passport-qq",
+  "typings": "./type.d.ts",
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport-oauth": "1.0.0"
@@ -24,7 +25,7 @@
   "engines": { "node": ">= 0.4.0" },
   "licenses": [ {
     "type": "MIT",
-    "url": "http://www.opensource.org/licenses/MIT" 
+    "url": "http://www.opensource.org/licenses/MIT"
   } ],
   "keywords": ["passport", "qq", "auth", "authn", "authentication", "identity"]
 }
